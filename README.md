@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+npm run start
+npx tailwind -i ./src/styles/styles.css -o ./dist/output.css --watch
+
 ### `npm start`
 
 Runs the app in the development mode.\
