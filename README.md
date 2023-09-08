@@ -6,16 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-npm run start \
+concurrently now runs both tailwind and the dev server with: npm start
+Runs the app in the development mode localhos3000: npm run start \
 npx tailwind -i ./src/styles/styles.css -o ./dist/output.css --watch
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
