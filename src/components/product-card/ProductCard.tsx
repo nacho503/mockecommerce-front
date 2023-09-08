@@ -23,12 +23,12 @@ const ProductCard: React.FC<ProductCardProps> = ({
 }) => {
 
   const cardStyle = {
-    width: '300px', // Set your desired width
+    width: '250px', // Set your desired width
     height: '400px', // Set your desired height
   };
 
   return (
-    <div className="bg-white p-4 rounded-lg shadow-md" style={cardStyle}>
+    <div className="bg-white p-4 rounded-lg shadow-md overflow-hidden hover:shadow-lg" style={cardStyle}>
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <h2 className="text-xl text-center font-semibold mt-2">{title}</h2>
       <p className="text-gray-600">{category}</p>

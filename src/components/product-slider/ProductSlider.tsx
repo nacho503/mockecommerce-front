@@ -75,7 +75,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => {
       >
         &lt;
       </button>
-      <div className="overflow-hidden flex justify-center">
+      <div className="flex justify-center">
         <div
           className="flex space-x-4 transition-transform duration-300 ease-in-out"
           style={{
@@ -87,7 +87,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => {
           {indicesToDisplay.map((index) => (
             <div
               key={index}
-              className={`w-${100 / cardsPerPage} px-2`}
+              className={`w-${100 / cardsPerPage} px-2 hover:scale-105 transform transition-transform duration-300`}
               style={{ minWidth: '200px' }}
             >
               <ProductCard {...products[index]} />
