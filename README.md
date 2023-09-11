@@ -6,10 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-concurrently now runs both tailwind and the dev server with: npm start
+
+concurrently now runs both tailwind and the dev server with: npm start\
 Runs the app in the development mode localhos3000: npm run start \
 npx tailwind -i ./src/styles/styles.css -o ./dist/output.css --watch
-
 
 ### `npm test`
 

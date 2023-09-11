@@ -70,7 +70,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => {
     <div className="relative">
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-white bg-opacity-50 px-6 py-2 rounded-full text-gray-800"
+        className="absolute top-1/2 left-0 transform -translate-y-1/2  w-10 h-10 bg-white border-2 border-black  rounded-full flex items-center justify-center text-gray-800 hover:border-4"
         style={{ zIndex: 1 }} // Ensure the arrows are above the cards
       >
         &lt;
@@ -97,7 +97,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => {
       </div>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-white bg-opacity-50 px-6 py-2 rounded-full text-gray-800"
+        className="absolute top-1/2 right-0 transform -translate-y-1/2 w-10 h-10 bg-white border-2 border-black rounded-full flex items-center justify-center text-gray-800 hover:border-4"
         style={{ zIndex: 1 }} // Ensure the arrows are above the cards
       >
         &gt;
