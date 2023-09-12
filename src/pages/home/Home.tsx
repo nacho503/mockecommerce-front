@@ -3,6 +3,7 @@ import ProductSlider from '../../components/product-slider/ProductSlider';
 import { useQuery } from '@apollo/client';
 import { GET_PRODUCTS_QUERY } from '../../graphql/queries';
 import '../../styles/styles.css';
+import Navbar from '../../components/navbar/Navbar';
 
 interface Rating {
   rate: number;
@@ -27,7 +28,11 @@ const Home: React.FC = () => {
 
   const products: Product[] = data?.products || [];
 
-  return <ProductSlider products={products} />;
+  return (
+    <div>
+      <Navbar />
+    <ProductSlider products={products} />
+    </div>);
 };
 
 export default Home;
