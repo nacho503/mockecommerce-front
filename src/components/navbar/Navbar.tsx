@@ -13,12 +13,6 @@ const Navbar: React.FC = () => {
           <div className="flex-grow"></div>
         </div>
         <SearchBar />
-        <ul className="flex space-x-4 ml-4">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          {/* Add more navigation links here */}
-        </ul>
       </div>
     </nav>
   );
