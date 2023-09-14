@@ -16,7 +16,7 @@ const SearchBar = () => {
         placeholder="Search for everything at Mockecommerce online and in store"
       />
       <div className="bg-yellow-500 text-white p-2 rounded-full">
-        <FontAwesomeIcon icon={faSearch} className="fa-lg" />
+        <FontAwesomeIcon icon={faSearch} className="fa-lg text-black" />
       </div>
     </div>
   );
