@@ -53,22 +53,42 @@ const InfoCards: React.FC = () => {
           </div>
         </div>
         {/* Row Below */}
-        <div className="flex h-96">
-          <div className="w-2/3 p-2">
+        <div className="flex h-96 relative">
+          <div className="w-2/3 p-2 pr-1 pl-0">
             <img
               src={electronics}
               alt="Left Image"
               className="w-full h-full object-cover"
             />
-          </div>
+             <div className="absolute bottom-0 left-0 bg-white bg-opacity-0 text-white p-2">
+             <Link to="/">
+              <strong
+                className="text-4xl uppercase tracking-widest hover:underline"
+                style={{ fontFamily: "Roboto, sans-serif" }}
+              >
+                Electronics
+              </strong>
+              </Link>
+            </div>
+          </div>  
 
           {/* Right Image (1/3 width) */}
-          <div className="w-1/3 p-2">
+          <div className="w-1/3 p-2 pl-1 pr-0">
             <img
               src={jewelry}
               alt="Right Image"
               className="w-full h-full object-cover"
             />
+              <div className="absolute bottom-0 right-0 bg-white bg-opacity-0 text-white p-2">
+              <Link to="/">  
+              <strong
+                className="text-4xl uppercase tracking-widest hover:underline"
+                style={{ fontFamily: "Roboto, sans-serif" }}
+              >
+                Jewelry
+              </strong>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
