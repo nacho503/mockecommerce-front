@@ -3,7 +3,7 @@ import ProductSlider from "../../components/product-slider/ProductSlider";
 import { useQuery } from "@apollo/client";
 import { GET_PRODUCTS_QUERY } from "../../graphql/queries";
 import "../../styles/styles.css";
-import Navbar from "../../components/navbar/Navbar";
+
 import InfoCards from "../../components/infocards/InfoCards";
 
 interface Rating {
@@ -31,7 +31,6 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <Navbar />
       <InfoCards />
       <ProductSlider products={products} />
     </div>

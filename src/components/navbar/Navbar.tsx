@@ -3,6 +3,7 @@ import Logo from "./logo/Logo";
 import DepartmentMenu from "./departmentsMenu/DepartmentsMenu";
 import SearchBar from "./searchbar/SearchBar";
 
+
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-blue-500">
