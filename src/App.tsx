@@ -14,7 +14,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/product" element={<PDP />} />
+          <Route path="/product/:id" element={<PDP />} />
         </Routes>
       </Router>
     </ApolloProvider>
